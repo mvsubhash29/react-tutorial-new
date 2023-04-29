@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Provider } from 'react-redux';
+
+import store from './redux/store';
+import { DogComponent } from './interview/DogComponent';
+import { CountAPI } from './interview/CountAPI';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <Provider store={store}>
+      <App />
+    </Provider> */}
+    <CountAPI />
   </React.StrictMode>,
   document.getElementById('root')
 );
