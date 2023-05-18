@@ -14,7 +14,7 @@ class RefDemo extends Component {
 
     if (this.cbRef)
     {
-      this.cbref.focus()
+      this.cbRef.focus()
     }
     //this.inputRef.current.focus()
     //console.log(this.inputRef)
