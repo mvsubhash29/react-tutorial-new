@@ -9,6 +9,7 @@ import store from './redux/store';
 import { DogComponent } from './interview/DogComponent';
 import { CountAPI } from './interview/CountAPI';
 import { UseCallbackDemo } from './components/hooks/UseCallbackDemo';
+import { UseMemoDemo } from './components/hooks/UseMemoDemo';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,7 +17,8 @@ ReactDOM.render(
       <App />
     </Provider> */}
     {/* <CountAPI /> */}
-    <UseCallbackDemo />
+    {/* <UseCallbackDemo /> */}
+    <UseMemoDemo />
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -7,4 +7,4 @@ const ButtonDemo = ({children, handleClick}) => {
   )
 }
 
-export const Button = React.memo(ButtonDemo)
+export const Button = React.memo(ButtonDemo);

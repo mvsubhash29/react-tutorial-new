@@ -2,7 +2,8 @@ import {useState, useCallback} from 'react';
 import { Title } from './Title';
 import { Count } from './Count';
 import { Button } from './Button';
-
+// eliminates unnecessary rendering of the child when parent changes
+// when we pass callback functions as props
 export const UseCallbackDemo = () => {
   const [age, setAge] = useState(30);
   const [count, setCount] = useState(1);

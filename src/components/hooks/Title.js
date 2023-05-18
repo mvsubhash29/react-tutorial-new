@@ -6,4 +6,4 @@ const TitleDemo = ({title}) => {
     <div>{title}</div>
   )
 }
-export const Title = React.memo(TitleDemo)
+export const Title = React.memo(TitleDemo);
