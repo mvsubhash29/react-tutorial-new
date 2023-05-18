@@ -8,13 +8,15 @@ import { Provider } from 'react-redux';
 import store from './redux/store';
 import { DogComponent } from './interview/DogComponent';
 import { CountAPI } from './interview/CountAPI';
+import { UseCallbackDemo } from './components/hooks/UseCallbackDemo';
 
 ReactDOM.render(
   <React.StrictMode>
     {/* <Provider store={store}>
       <App />
     </Provider> */}
-    <CountAPI />
+    {/* <CountAPI /> */}
+    <UseCallbackDemo />
   </React.StrictMode>,
   document.getElementById('root')
 );

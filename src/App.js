@@ -20,7 +20,7 @@ import {ClassComponentTutorial} from './components/ClassComponentTutorial/ClassC
 import { CssStyleSheet, InlineStyleComponent } from './components/StyleTutorial/Inline';
 import { PortalDemo } from './components/Portals/Portals';
 import { HOC } from './components/HOC/HOC';
-
+import { UseCallbackDemo } from './components/hooks/UseCallbackDemo';
 function App() {
   return (
     <div className="App">
@@ -37,7 +37,8 @@ function App() {
        {/* <CssStyleSheet /> */}
        {/* <InlineStyleComponent /> */}
        {/* <PortalDemo /> */}
-       <HOC />
+       {/* <HOC /> */}
+       <UseCallbackDemo />
       </header>
     </div>
   );
